@@ -1,4 +1,3 @@
-/* Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +17,6 @@ body.dark {
   color: #ccc;
 }
 
-/* Root Container */
 #root {
   display: flex;
   justify-content: center;
@@ -27,7 +25,6 @@ body.dark {
   width: 100%;
 }
 
-/* App Container */
 .App {
   display: flex;
   flex-direction: column;
@@ -46,7 +43,6 @@ body.dark {
   background-color: #282828;
 }
 
-/* Button Styles */
 button {
   background-color: #007bff;
   color: white;
@@ -75,7 +71,6 @@ button.dark:hover {
   background-color: #777;
 }
 
-/* Loader Styles */
 .loader {
   font-size: 18px;
   font-weight: bold;
@@ -87,7 +82,6 @@ button.dark:hover {
   color: #1e90ff;
 }
 
-/* Main Container */
 .main-container {
   display: flex;
   width: 100%;
@@ -95,7 +89,6 @@ button.dark:hover {
   gap: 15px;
 }
 
-/* Icon Styles */
 .icon {
   display: flex;
   align-items: center;
@@ -110,12 +103,11 @@ button.dark:hover {
   font-size: medium;
 }
 
-/* Body Styles */
 .body {
   width: calc(100% - 80px);
+  color: #181818;
 }
 
-/* List Styles */
 ul {
   list-style: none;
   padding: 0;
@@ -157,7 +149,6 @@ li:hover strong, li:hover p {
   transform: scale(.8);
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
   .App {
     padding: 10px;
